@@ -1,11 +1,9 @@
-import os
-from bs4 import BeautifulSoup
-import glob
-import chardet
-from pathlib import Path
+import re
+import nltk
+
+def tokenise(self, raw_text):
+    re.sub("\s")
 
 
-
-paths = glob.glob('/home/bachmoney/Desktop/Search-engine-project/Book/Book/*.html')
-
-
+def lemmatize(self):
+    
